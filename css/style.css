@@ -2,8 +2,9 @@ article {
 	clear: both;
 }
 
-body.mainContent {
-	font-size: 18px;
+body {
+	font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 26px;
 }
 
 img {
@@ -21,15 +22,28 @@ img {
 }
 
 .footer-top {
-	background-color: #f7931e;
+	max-width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
+.footer-top-wrapper {
+	background-color: #f7931e;
+	overflow: hidden;
+}
+
+
 .footer-bottom {
-	background-color: #7b8a8b;
-	clear: both;
+	max-width: 1140px;
+	margin: 0 auto;
 	color: white;
 	padding: 20px;
 	font-size: 0.65em;
+}
+
+.footer-bottom-wrapper {
+	background-color: #7b8a8b;
+	clear: both;
 }
 
 .footer-column,
@@ -74,8 +88,7 @@ ul.footer-column {
 }
 
 .main-wrapper {
-	font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 26px;
+	
 }
 
 .site-slogan {
