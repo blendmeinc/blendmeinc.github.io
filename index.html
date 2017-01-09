@@ -9,6 +9,16 @@
     <title>blend me, inc | we help organizations cultivate a location independent workplace through telecommute, distributed or remote work initiatives</title>
     <link rel="stylesheet" href="assets/css/app.css">
     <script src="https://use.fontawesome.com/e317970c37.js"></script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-89954894-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
   </head>
   <body>
 
@@ -18,7 +28,7 @@
     	 <!--- Navigation -->
     	       <div class="navigation" data-sticky-container>
     	 
-    	         <!-- Mobile Menu -->
+    	         <!-- Mobile Toggle -->
     	       
     	         <div class="title-bar" data-responsive-toggle="menu" data-hide-for="medium">
     	           <button class="menu-icon" type="button" data-toggle></button>
@@ -27,19 +37,19 @@
     	             <a href="/" class="m-menu-logo">blend me, inc</a>
     	           </div>
     	         </div> 
-    	         <!-- End Mobile Menu -->
+    	         <!-- End Mobile Toggle -->
     	     
     	         <!-- Desktop Navigation -->
     	         <div class="top-bar" id="menu" data-sticky data-options="marginTop:0;" style="width:100%">
-    	           <div class="row">
+    	           <div class="row title-bar-content">
     	             <div class="title-bar-left">
     	               <a href="/" class="menu-logo">blend me, inc</a>
     	             </div>
     	             <div class="title-bar-right">
     	               <nav data-magellan data-options="animation-duration: 8000;">              
     	                 <ul class="vertical medium-horizontal menu align-left">
-    	                   <li><a href="#who">who we are</a></li>
-    	                   <li><a href="#why">what's telework</a></li>
+    	                   <li><a href="#who">about us</a></li>
+    	                   <li><a href="#why">what is telework</a></li>
     	                   <li><a href="#services">services</a></li>
     	                   <li><a href="#blog">blog</a></li>
     	                   <li><a href="#contact">contact</a></li>
@@ -63,10 +73,10 @@
     
           <div class="hero-text medium-12 columns">
             
-              <div class="turnover">we help companies with life <span class="blend-slogan">integration</span></div> through telecommute, distributed or remote work programs
+              <div class="turnover">we help companies with life <span class="blend-slogan">integration</span></div> through distributed, remote or telecommute initiatives
             
               <nav data-magellan> 
-              <a href="#why-internal" class="button">how does it work?</a>
+              <a href="#who" class="button">how does it work?</a>
               </nav>
           </div>
           <div class="top-hero">
@@ -142,7 +152,7 @@
        
       </div>
     
-      <h1 id="why" data-magellan-target="why"></h1>
+     <h1 id="why" data-magellan-target="why"></h1>
     
      <!-- End layer -->
     <div class="layer l-action-statement philosophy">
@@ -168,11 +178,18 @@
               <span>Telecommuter</span> employees share their time commuting to a central workplace and working from home.
             </li>
           </ul>
+    
+         <nav data-magellan>  
+         <a href="#contact" class="button">Get Teleworking!</a>
+         </nav>
+    
         </div>
       </div>
     </div>
     
       <h1 id="services" data-magellan-target="services"></h1>
+      
+    
     <!-- layer -->
       <div class="layer l-action-statement our-services">
        <div class="row">
@@ -185,69 +202,74 @@
       <!-- layer -->
       <div class="layer l-services">
         <div class="row"> 
-          <div class="medium-3 columns services marketing">
+          <div class="medium-6 large-3 columns services marketing">
             <i class="fa fa-bullhorn fa-5x"></i>
             <h3>Marketing</h3>
-            <p>
-              <li>building internal communities</li>
+            <ul>
+              <li>internal branding</li>
               <li>internal communications</li>
               <li>employee referral programs</li>
-              
-            </p>
+            </ul>
     
           </div>
     
-          <div class="medium-3 columns services engagement">
+          <div class="medium-6 large-3 columns services engagement">
             <i class="fa fa-smile-o fa-5x"></i>
             <h3>Engagement</h3>
-            <p>
+            <ul>
               <li>meetings and retreats</li>
               <li>corporate giving</li>
               <li>employee incentive programs</li>
-            </p>
+            </ul>
           </div>
     
-          <div class="medium-3 columns services policy">
+          <div class="medium-6 large-3 columns services policy">
             <i class="fa fa-file-text-o fa-5x"></i>
             <h3>Policy</h3>
-            <p>
-              <li>operations manual</li>
+            <ul>
+              <li>employee handbooks</li>
               <li>culture and policy alignment </li>
               <li>human resources manuals</li>
-            </p>
+            </ul>
           </div>
     
-          <div class="medium-3 columns services products">
+          <div class="medium-6 large-3 columns services products">
             <i class="fa fa-cogs fa-5x"></i>
             <h3>Products</h3>
-            <p>
+            <ul>
               <li>IT advising</li>
               <li>software training </li>
               <li>product development</li>
-            </p>
+            </ul>
           </div>
     
-        </div>
+          <nav data-magellan> 
+            <a href="#contact" class="button">Start Now!</a>
+          </nav>
+    
+        </div> <!---Endo of Row -->
       </div>
       <!-- End layer -->
       <!-- layer -->
       <div class="layer l-action-statement blog" id="blog" data-magellan-target="blog">
         <div class="row"> 
           <h1>knowledge, news and fun</h1>
-          <p>we share things from our experiences or news and some other things for fun</p>
+          <p>we share stories and expertise from our experiences, the latest research and news from other blended workspaces, and a little entertainment</p>
+          <span>
+          view our blog on <a href="https://medium.com/blendmeinc">medium</a></span>
         </div>
       </div>
       <!-- End layer -->
     
        <!-- layer -->
       <div class="layer l-blog article-1">
-        <div class="row">
+        <div class="row article">
     
-          <div class="article-content columns large-6"> 
-            <h3><a href="http://dev-blendme8.pantheonsite.io/are-your-remote-worker-policies-leaving-you-cold">Are your Remote Worker Policies Leaving You in the Cold?</a></h3>
+          <div class="article-content columns medium-8 large-7"> 
+            <h3><a href="https://medium.com/blendmeinc/">Life Integration. Go Remote.</a></h3>
+            <p>Location independence. How it inspired me to start a business</p>
             <p><a href="https://medium.com/@JenCClarkson">by Jennifer Clarkson</a></p>
-            <p>In the past three years the areas impacted by the weather have become a lot more common and have costs businesses millions due to work stoppage. Is your companied prepared? </p>
-            <a href="http://dev-blendme8.pantheonsite.io/are-your-remote-worker-policies-leaving-you-cold" class="button">read more</a>
+            <a href="https://medium.com/blendmeinc/" class="button">read more</a>
           </div>
         </div>
     
@@ -258,11 +280,13 @@
       <!-- layer -->
       <div class="layer l-blog article-2">
         <div class="row"> 
-          <div class="article-content columns large-6">
-            <h3><a href="http://dev-blendme8.pantheonsite.io/are-your-remote-worker-policies-leaving-you-cold">Are your Remote Worker Policies Leaving You in the Cold?</a></h3>
-            <p><a href="https://medium.com/@JenCClarkson">by Jennifer Clarkson</a></p>
-            <p>In the past three years the areas impacted by the weather have become a lot more common and have costs businesses millions due to work stoppage. Is your companied prepared? </p>
-            <a href="http://dev-blendme8.pantheonsite.io/are-your-remote-worker-policies-leaving-you-cold" class="button">read more</a>
+         <div class="article-wrapper">
+            <div class="article-content">
+              <h3><a href="https://medium.com/blendmeinc/">Is Remote Work the Answer to the Family Holiday Question?</a></h3>
+              <p>After a few festive beverages, hugs and kisses its only a matter of time before someone asks, when are you moving back home?</p>
+              <p><a href="https://medium.com/@kaleemclarkson">by Kaleem Clarkson</a></p>
+              <a href="https://medium.com/blendmeinc/" class="button">read more</a>
+            </div>
           </div>
     
         </div>
@@ -274,7 +298,8 @@
       <div class="layer l-action-statement">
         <div class="row"> 
           <h1>lets talk</h1>
-          <p>Can you dig it? Fill out the form below and lets get started. <br> In the meantime subscribe to our blog and social networks</p>
+          <p>Whether you are you having challenges with your distributed team or just want to try something new. We want to hear from you! 
+          <br> Fill out the form below and subscribe to our blog and social networks</p>
         </div>
       </div>
       <!-- End layer -->
@@ -314,11 +339,13 @@
             </ul>
             
             <h3>Follow and Connect</h3>
-            <ul class="social-media">
-              <li><a href="http://twitter.com/blendmeinc"><i class="fa fa-twitter fa-3x"></i>@blendmeinc</a></li>
-              <li><a href="http://plus.google.com/+Blendmeinc"><i class="fa fa-google-plus fa-3x"></i>+blendmeinc</a></li>
-              <li><a href="https://www.facebook.com/blendmeinc/"><i class="fa fa-facebook fa-3x"></i>blendmeinc</a></li>
-            </ul> 
+            <div class="social-media">        
+              <ul>
+                <li><a href="http://twitter.com/blendmeinc"><i class="fa fa-twitter fa-3x"></i>@blendmeinc</a></li>
+                <li><a href="http://plus.google.com/+Blendmeinc"><i class="fa fa-google-plus fa-3x"></i>+blendmeinc</a></li>
+                <li><a href="https://www.facebook.com/blendmeinc/"><i class="fa fa-facebook fa-3x"></i>blendmeinc</a></li>
+              </ul> 
+            </div>
           </div>
         </div>
       </div>
@@ -340,6 +367,9 @@
 
 
     <script src="assets/js/app.js"></script>
-    <script src="assets/js/wufoo.js"></script>
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/1729126.js"></script>
+   <!-- End of HubSpot Embed Code -->
+   
   </body>
 </html>
